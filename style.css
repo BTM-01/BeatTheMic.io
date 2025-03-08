@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: hsl(73, 0%, 95%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: hsl(0, 0%, 20%);
+    height: 100vh;
+    height: fit-content;
+}
+
+header {
+    height: fit-content;
+    background-color: hsl(0, 0%, 90%);
+    width: 100%;
+}
+
+header img {
+    display: flex;
+    height: 20em;
+    margin: 0 auto;
+}
+
+.all-container {
+    padding: 5px 12px;
+}
+
+.Welcome-section h4 {
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+.form1-section {
+    margin: 50px 0;
+}
+
+.NameNdId-input input {
+    padding: 1em 0.3em;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 90%;
+}
+
+hr {
+    background-color: hsl(0, 0%, 70%);
+    height: 1px;
+    width: 90%;
+    outline: none;
+    border: none;
+}
+
+form {
+    margin-top: 10px;
+}
+
+.AgeNdCountry-input {
+    margin: 10px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.AgeNdCountry-input input {
+    margin: 20px 0;
+    padding: 1em 0.3em;
+    background-color: transparent;
+    border: 1px solid hsl(0, 0%, 70%);
+    border-radius: 3px;
+    outline: none;
+    width: 110px;
+}
+
+.Important {
+    color: #e63221;
+}
+
+.emailSection {
+    margin: 20px 0;
+}
+
+.emailSection p {
+    font-size: 12px;
+    color: hsl(0, 0%, 20%);
+}
+
+.emailSection input {
+    padding: 1em 0.3em;
+    background-color: transparent;
+    border: 1px solid hsl(0, 0%, 70%);
+    border-radius: 3px;
+    outline: none;
+    width: 90%;
+    color: hsl(0, 0%, 20%);
+}
+
+.submit-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-container select {
+    width: max-content;
+    margin: 10px 0;
+}
+
+#selectType {
+    border: none;
+    background-color: hsl(0, 0%, 90%);
+    padding: 8px;
+    border-radius: 3px;
+    color: hsl(0, 0%, 20%);
+}
+
+button {
+    display: flex;
+    background-color: #e63221;
+    margin: 20px 0;
+    width: max-content;
+    padding: 8px 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    color: hsl(0, 0%, 20%);
+}
+
+button:active {
+    scale: 110%;
+}
+
+input::placeholder {
+    color: hsl(0, 0%, 50%);
+    font-size: 12px;
+}
